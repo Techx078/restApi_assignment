@@ -47,7 +47,7 @@ public class EmployeeController {
         return ResponseEntity.ok("hello");
     }
 
-    @GetMapping(value="/test",headers = "x-api-version=2")
+    @GetMapping(value="/test",headers = "x-api-version-2")
     @Tag(name = "test", description = "test test")
     public ResponseEntity<String> test2() {
         return ResponseEntity.ok("hello2");
